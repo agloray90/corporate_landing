@@ -1,14 +1,15 @@
 /*==========  Desktop First Method  ==========*/
 @media only screen and (max-width : 1500px) {
 	.design {
-		
+
 
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
-
+	.new_design {
+		padding-top: 30px;
+	}
 	
 
 }
@@ -16,6 +17,15 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+   .design {
+   	padding: 10px;
+   }
+
+   .design_picture {
+   	text-align: center;
+   	margin-right: 0;
+   }
+
 
 
 
@@ -24,10 +34,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
-   
-
-
+	.title_container  {
+		width: 95%;
+	}
 
 }
 	
