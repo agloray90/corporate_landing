@@ -83,22 +83,14 @@ body {
 }
 
 
-.container-fluid .row   {
-	margin-left: 0;
-  	margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
- }
-
-
 .design {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, 50%);	
-	
+	padding: 70px	
 }
 
+.design_picture {
+	text-align: right;
+	margin-right: -15px;
+}
 
 .design_picture img{
 	max-width: 100%;
