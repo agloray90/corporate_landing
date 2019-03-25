@@ -13,7 +13,7 @@ html, body{
 }
 
 body {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Exo', sans-serif;	
 }
 
 
@@ -79,27 +79,36 @@ body {
 
 .new_design {
 	position: relative;
-	min-height: 725px;	
+		
 }
 
-.design_picture {
-	position: absolute;
-	left: 50%;
-	background-repeat: no-repeat;
-	background-position: right;
-}
+
+.container-fluid .row   {
+	margin-left: 0;
+  	margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+ }
+
 
 .design {
 	position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, 50%);
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 50%);	
+	
 }
 
 
+.design_picture img{
+	max-width: 100%;
+}
+
 
 .new_design span {
-	color: #ff6d6d;	
+	color: #ff6d6d;
+	letter-spacing: 2px;
+    font-weight: 500;	
 }
 
 .design h3 {
