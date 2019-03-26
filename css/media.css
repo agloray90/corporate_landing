@@ -1,7 +1,6 @@
 /*==========  Desktop First Method  ==========*/
 @media only screen and (max-width : 1500px) {
-	.design {
-
+	
 
 }
 
@@ -10,24 +9,51 @@
 	.new_design {
 		padding-top: 30px;
 	}
+
+	.some_awesone_features {
+		padding: 0;
+	}
 	
+	.some_container p,
+	.respons_container h2,
+	.respons_container p,
+	.desc_container p {
+		padding: 0 50px;
+	}
+
 
 }
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-   .design {
-   	padding: 10px;
-   }
+	.title_container { 
+    	transform: translate(-50%, -55%);	
+	}
 
-   .design_picture {
-   	text-align: center;
-   	margin-right: 0;
-   }
+	.some_container {
+		margin-bottom: 30px;
+	}
 
+	.respons_container h4 {
+		text-align: right;
+	}
+	.respons_container h2 {
+		font-size: 35px;
+	}
 
+	.container_parthers p {
+		padding-bottom: 20px;
+	}
 
+	.section_desc {
+		background-image: none;
+		min-height: auto
+	}
+
+	.desc_container p {
+		margin-bottom: 30px;
+	}
 
 }
 
@@ -38,19 +64,19 @@
 		width: 95%;
 	}
 
-}
+	.title_container { 
+    	transform: translate(-50%, -75%);	
+	}
+	
+
 	
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
-/*.title_container {
-    width: 90%;
-}*/
+	.title_container h1 {
+		font-size: 45px;
 
-.title_container h1 {
-	font-size: 45px;
-}
+	}
 
 
 }
