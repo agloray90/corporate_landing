@@ -27,10 +27,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.title_container { 
-    	transform: translate(-50%, -55%);	
-	}
-
+	
 	.some_container {
 		margin-bottom: 30px;
 	}
@@ -60,13 +57,15 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+	.title {
+		background-position: 0;
+	}
+
 	.title_container  {
 		width: 95%;
 	}
+}
 
-	.title_container { 
-    	transform: translate(-50%, -75%);	
-	}
 	
 
 	
