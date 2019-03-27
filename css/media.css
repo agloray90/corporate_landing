@@ -1,7 +1,9 @@
 /*==========  Desktop First Method  ==========*/
 @media only screen and (max-width : 1500px) {
-	
-
+/*	.new_design {
+		padding-top: 45px;
+	}
+*/
 }
 
 /* Large Devices, Wide Screens */
@@ -9,12 +11,8 @@
 	.new_design {
 		padding-top: 30px;
 		padding-bottom: 90px;
+		background-size: contain;
 	}
-
-	.some_container p {
-		padding: 0;
-	}
-	
 
 
 }
@@ -22,22 +20,47 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.title {
+		background-position: 0
+	}
+
 	.title_container {
 		width: 75%;
 	}
 
 	.some_awesone_features {
-		padding: 100px 0;
+		padding: 50px 0;
 	}
+
 	.some_container {
 		margin: 10px 0;
 	}
 
-	.respons_container h4 {
-		text-align: right;
+	.some_title_container h2 {
+    	margin-bottom: 20px;
 	}
-	.respons_container h2 {
-		font-size: 35px;
+
+	.responsive_design {
+		background-image: none;		
+		background-color: #f08282;
+		padding: 50px 0;
+		text-align: center;		
+	}
+
+	.respons_container h4 {		
+		color: #DC143C;
+		margin-bottom: 10px;
+	}
+
+	.responsive_design .respons_container h2 {
+		padding: 0;
+		font-size: 28px;
+		margin: 10px 0;
+		letter-spacing: 1px;
+	}
+
+	.responsive_design .respons_container p {
+		padding: 0;
 	}
 
 	.container_parthers p {
@@ -61,26 +84,12 @@
 		width: 95%;
 	}
 	
-	.some_container p,
-	.respons_container h2,
-	.respons_container p,
-	.desc_container p {
-		padding: 0 50px;
-	}
+
 
 	.some_container {
 		margin-bottom: 15px;
 	}
 
-	.some_title_container h2 {
-    	margin-bottom: 20px;
-	}
-
-	.some_awesone_features,
-	.design_parthers,
-	.desc_container {
-		padding: 50px 0;
-	}
 
 	.container_parthers img {
 		margin-bottom: 0;
@@ -95,6 +104,7 @@
     }
     .section_desc {
     	padding-top: 0;
+    	background-size: contain;
     }
 
 	.desc_container h2 {
@@ -108,9 +118,18 @@
 	.title_container h1 {
 		font-size: 45px;
 	}
+	.new_design {
+		background-image: none;
+		background-color: #ececec;
+	}
+	.design {
+		padding: 0 10px;
+		text-align: center;
+	}
 
 	.desc_container {
 		padding: 20px 0;
 	}
-
+	.section_desc {
+    	min-height: 550px;
 }
