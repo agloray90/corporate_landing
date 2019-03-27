@@ -196,6 +196,7 @@ body {
 }
 
 .respons_container p {
+	font-family: "Exo-Medium";
 	font-size: 16px;
 	color: #282828;
 	opacity: 0.66;
