@@ -29,7 +29,7 @@
 @media only screen and (max-width : 992px) {
 	
 	.some_container {
-		margin-bottom: 30px;
+		margin: 10px 0;
 	}
 
 	.respons_container h4 {
@@ -41,11 +41,6 @@
 
 	.container_parthers p {
 		padding-bottom: 20px;
-	}
-
-	.section_desc {
-		background-image: none;
-		min-height: auto
 	}
 
 	.desc_container p {
@@ -63,6 +58,39 @@
 
 	.title_container  {
 		width: 95%;
+	}
+	
+	.some_container {
+		margin-bottom: 15px;
+	}
+
+	.some_title_container h2 {
+    	margin-bottom: 20px;
+	}
+
+	.some_awesone_features,
+	.design_parthers,
+	.desc_container {
+		padding: 50px 0;
+	}
+
+	.container_parthers img {
+		margin-bottom: 0;
+	}
+
+	.container_parthers h4 {
+		margin-bottom: 15px;
+	}
+
+    .firma_parthers img {
+    	padding: 0;
+    }
+    .section_desc {
+    	padding-top: 0;
+    }
+
+	.desc_container h2 {
+		margin-bottom: -40px;
 	}
 }
 

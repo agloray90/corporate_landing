@@ -183,11 +183,15 @@ body {
     padding-bottom: 145px;
 }
 
+.respons_container .sub_title {
+	line-height: 0;
+}
+
 .respons_container h2 {
 	font-family: "Exo-Medium";	
 	font-size: 40px;
 	color: #282828;
-	line-height: 50px;
+	line-height: 1.2;
 	letter-spacing: 4px;
 	padding: 35px 0;	
 }
