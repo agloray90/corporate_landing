@@ -10,16 +10,10 @@
 		padding-top: 30px;
 	}
 
-	.some_awesone_features {
+	.some_container p {
 		padding: 0;
 	}
 	
-	.some_container p,
-	.respons_container h2,
-	.respons_container p,
-	.desc_container p {
-		padding: 0 50px;
-	}
 
 
 }
@@ -27,7 +21,13 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+	.title_container {
+		width: 75%;
+	}
+
+	.some_awesone_features {
+		padding: 100px 0;
+	}
 	.some_container {
 		margin: 10px 0;
 	}
@@ -60,6 +60,13 @@
 		width: 95%;
 	}
 	
+	.some_container p,
+	.respons_container h2,
+	.respons_container p,
+	.desc_container p {
+		padding: 0 50px;
+	}
+
 	.some_container {
 		margin-bottom: 15px;
 	}
@@ -102,8 +109,10 @@
 @media only screen and (max-width : 480px) {
 	.title_container h1 {
 		font-size: 45px;
-
 	}
-
+	
+	.desc_container {
+		padding: 20px 0;
+	}
 
 }
