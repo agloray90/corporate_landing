@@ -80,14 +80,11 @@ body {
 	background-image: url(../img/right_pic.png);
 	height: auto;
 	background-position: right;	 
-    background-repeat: no-repeat;
-    padding-top: 190px;
+    background-repeat: no-repeat;    
+    padding-top: 145px;
     padding-bottom: 170px;
-}
-	
-.design {
-	margin: 30px;
-}
+}	
+
 
 .sub_title {
 	font-family: "Exo-Medium";

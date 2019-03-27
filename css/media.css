@@ -8,6 +8,7 @@
 @media only screen and (max-width : 1200px) {
 	.new_design {
 		padding-top: 30px;
+		padding-bottom: 90px;
 	}
 
 	.some_container p {
@@ -100,9 +101,6 @@
 		margin-bottom: -40px;
 	}
 }
-
-	
-
 	
 
 /* Extra Small Devices, Phones */
@@ -110,7 +108,7 @@
 	.title_container h1 {
 		font-size: 45px;
 	}
-	
+
 	.desc_container {
 		padding: 20px 0;
 	}
