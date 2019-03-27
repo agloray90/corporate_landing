@@ -103,9 +103,6 @@ body {
 .design h2 {
 	font-family: "Exo-Medium";
 	font-size: 40px;
-	padding: 20px 0;
-	
-
 }
 
 .design span {
@@ -147,6 +144,7 @@ body {
     font-family: "Exo-Medium";
     font-size: 40px;
     color: #282828;
+    letter-spacing: 4px;
     margin-bottom: 90px;
 }	
 	
