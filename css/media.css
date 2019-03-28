@@ -14,6 +14,10 @@
 		background-size: contain;
 	}
 
+	.container_inputs {
+		margin-top: 30px;
+	}
+
 
 }
 
@@ -116,6 +120,14 @@
 	}
 	.design_parthers {
 		padding: 40px 0;
+	}
+
+	.sub_title_designes h2 {
+		font-size: 35px;
+	}
+
+	.container_inputs input {
+		margin: 10px 0;
 	}
 }
 	

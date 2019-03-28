@@ -282,3 +282,180 @@ body {
     margin-bottom: 105px;
 	
 }
+
+.designers_inputs {	
+	background-color: #323969;
+	padding: 60px 0;
+	
+}
+.sub_title_designes {
+	text-align: center;
+}
+
+.sub_title_designes h2 {
+	 font-family: "Exo-Medium";
+	 font-size: 40px;
+	 line-height: 1.25;
+	 color: #fff;
+}
+
+.sub_designrs_text {
+	position: relative;
+	text-align: right;
+	margin-bottom: 10px;	
+}
+
+.sub_designrs_text span {
+	font-family: "Exo-Regular";  
+	font-size: 16px;
+	color: #f6f5f3;
+	line-height: 4.6;
+}
+.sub_designrs_text span:before {
+	content: url(../img/arrow.png);
+	position: absolute;
+    top: 35%;
+    left: 5%;
+
+}
+
+.container_inputs {
+	text-align: center;
+}
+
+.container_inputs input {
+	background-color: #464c77;	
+	border: 1px solid #999cb4;	  
+	padding: 10px;
+	margin: 0 10px;
+	border-radius: 3px;
+	text-align: center;
+
+}
+
+.container_inputs input[type="text"] {
+	font-family: "Exo-Medium";  
+	font-size: 16px;
+	color: #f6f5f3;    
+}
+
+.but_try {		 
+  	width: 220px;
+  	padding: 11px 10px;
+  	border-radius: 3px;
+  	background-color: #ff6d6d;
+  	box-shadow: 3px 3px 3px 3px #272d53;
+}
+
+.but_try:hover {
+	background-color: #B22222;
+	transition: all .7s;	
+}
+
+.but_try span {
+	font-family: "Exo-Medium"; 
+	font-size: 16px;
+	color: #f6f5f3;	  
+}
+
+.container_try_but {
+	display: inline-block;
+}
+
+.designers_inputs p {
+	font-family: "Exo-Medium";
+	font-size: 16px;
+	line-height: 4.6;
+	color: #fff;
+	opacity: 0.6;
+	text-align: center;
+}
+
+
+.footer {
+	background-image: url(../img/pic_footer.png);
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding: 90px 0;
+}
+
+.logo_container p {
+	font-family: "Exo-Medium";
+	font-size: 14px;
+	line-height: 1.8;
+	color: #282828;
+	opacity: 0.56;
+}
+
+.footer_container h3{
+	font-family: "Exo-Medium";
+	font-size: 22px;
+	line-height: 1.8;
+	color: #282828;
+}
+
+.footer_container li {
+	font-family: "Exo-Regular";
+	font-size: 14px;
+	line-height: 2.14;
+	color: #282828;
+	opacity: 0.66;
+}
+
+.form_footer {
+	margin: 5px 0 20px;
+}
+
+
+.form_footer input {
+	background-color: #f6f6f6;	
+	border: 1px solid #b8b8bf;	  
+	padding: 10px;	
+	border-radius: 3px;
+	position: relative;
+	
+}
+
+.form_footer input[type="text"] {
+	font-family: "Exo-Regular";
+	font-size: 16px;
+	line-height: 4.6
+	color: #000;
+	opacity: 0.4;
+}
+
+.but_form_footer {
+	background-color: #ff6d6d;
+	height: 40px;
+	width:  40px;
+	position: absolute;
+    top: 36%;
+    left: 66%;
+    border-radius: 3px;
+
+}
+
+.but_form_footer i{
+	position: absolute;
+	top: 25%;
+    left: 25%;
+    font-size: 20px;
+}
+
+.btn-group {
+	text-align: center;
+	color: #cbcbcb;
+	padding: 0 20px;
+}
+
+.btn-group i {
+	padding: 0 10px;
+}
+
+
+
+
+
+	
