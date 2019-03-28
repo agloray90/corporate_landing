@@ -423,10 +423,39 @@ body {
 .form_footer input[type="text"] {
 	font-family: "Exo-Regular";
 	font-size: 16px;
+	color: #fff;
+
+}
+
+
+.form_footer input[type="text"]::-webkit-input-placeholder { 
+	font-family: "Exo-Regular";
+	font-size: 16px;
 	line-height: 4.6
 	color: #000;
 	opacity: 0.4;
 }
+.form_footer input[type="text"]:-ms-input-placeholder { 
+	font-family: "Exo-Regular";
+	font-size: 16px;
+	line-height: 4.6
+	color: #000;
+	opacity: 0.4;
+}
+.form_footer input[type="text"]::-ms-input-placeholder { 
+	font-family: "Exo-Regular";
+	font-size: 16px;
+	line-height: 4.6
+	color: #000;
+	opacity: 0.4;
+}
+.form_footer input[type="text"]::placeholder { 
+	font-family: "Exo-Regular";
+	font-size: 16px;
+	line-height: 4.6
+	color: #000;
+	opacity: 0.4;
+} 
 
 .but_form_footer {
 	background-color: #ff6d6d;
