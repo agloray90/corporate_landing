@@ -17,7 +17,10 @@
 	.container_inputs {
 		margin-top: 30px;
 	}
-
+	
+	.section_desc {
+		padding-top: 50px;
+	}
 
 }
 
@@ -129,6 +132,19 @@
 	.container_inputs input {
 		margin: 10px 0;
 	}
+
+	.footer {
+		background-image: none;		
+		background-color: #ececec;
+		text-align: center;
+	}
+
+	.logo_container, 
+	.footer_container {
+		margin-bottom: 20px;
+	}
+	
+	
 }
 	
 
