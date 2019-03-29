@@ -95,7 +95,8 @@
 	.footer_container {
 		margin-bottom: 20px;
 	}
-	
+	.logo_container p {
+    	width: 100%;
 
 }
 
