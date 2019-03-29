@@ -338,7 +338,7 @@ body {
 .container_inputs input[type="text"] {
 	font-family: "Exo-Medium";  
 	font-size: 16px;
-	color: #f6f5f3;    
+	color: #fff;
 }
 
 .but_try {		 
@@ -425,7 +425,7 @@ body {
 .form_footer input[type="text"] {
 	font-family: "Exo-Regular";
 	font-size: 16px;
-	color: #fff;
+	color: #000;
 
 }
 
