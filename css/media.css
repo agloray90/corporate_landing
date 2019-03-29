@@ -187,3 +187,12 @@
 	    right: 20%;
 	} 
 }
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 320px) {
+
+		.but_form_footer {
+	    right: 15%;
+	} 
+}
