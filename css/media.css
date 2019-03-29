@@ -81,6 +81,7 @@
 	   
 	.section_desc {    
     	background-size: contain;
+    	/*padding: 0;*/
     }
 
     .footer {
@@ -134,10 +135,6 @@
     .firma_parthers img {
     	padding: 0;
     }
-    .section_desc {
-    	padding-top: 0;
-    	
-    }
 
 	.desc_container h2 {
 		margin-bottom: -40px;
@@ -186,10 +183,6 @@
 	.desc_container {
 		padding: 20px 0;
 	}
-	.section_desc {
-    	min-height: 550px;
-	}
-
 		.but_form_footer {
 	    right: 20%;
 	} 
