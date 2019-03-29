@@ -428,33 +428,32 @@ body {
 }
 
 
-.form_footer input[type="text"]::-webkit-input-placeholder { 
+input[type="text"]::-webkit-input-placeholder { 
 	font-family: "Exo-Regular";
 	font-size: 16px;
-	line-height: 4.6
-	color: #000;
-	opacity: 0.4;
+	/*line-height: 4.6*/
+	color: #f6f5f3;	
 }
-.form_footer input[type="text"]:-ms-input-placeholder { 
+
+input[type="text"]:-ms-input-placeholder { 
 	font-family: "Exo-Regular";
 	font-size: 16px;
-	line-height: 4.6
-	color: #000;
-	opacity: 0.4;
+	/*line-height: 4.6*/
+	color: #f6f5f3;	
 }
-.form_footer input[type="text"]::-ms-input-placeholder { 
+
+ input[type="text"]::-ms-input-placeholder { 
 	font-family: "Exo-Regular";
 	font-size: 16px;
-	line-height: 4.6
-	color: #000;
-	opacity: 0.4;
+	/*line-height: 4.6*/
+	color: #f6f5f3;	
 }
-.form_footer input[type="text"]::placeholder { 
+
+input[type="text"]::placeholder { 
 	font-family: "Exo-Regular";
 	font-size: 16px;
-	line-height: 4.6
-	color: #000;
-	opacity: 0.4;
+	/*line-height: 4.6*/
+	color: #f6f5f3;	
 } 
 
 .but_form_footer {
