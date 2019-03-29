@@ -452,6 +452,14 @@ body {
 	color: #f6f5f3;	
 } 
 
+
+.form_footer input[type="text"]::placeholder { 
+	font-family: "Exo-Regular";
+	font-size: 16px;	
+	color: #000;
+	opacity: 0.4;	
+} 
+
 .but_form_footer {
 	background-color: #ff6d6d;
 	height: 40px;
