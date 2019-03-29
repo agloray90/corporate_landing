@@ -114,9 +114,12 @@
 	.title_container  {
 		width: 95%;
 	}
-	
-	.new_design {    	
-    	padding-bottom: 30px;
+
+	.new_design {
+		background-image: none;
+		background-color: #ececec;
+		padding-bottom: 30px;
+		text-align: center;
 	}
 
 	.some_container {
@@ -169,11 +172,7 @@
 	.title_container h1 {
 		font-size: 45px;
 	}
-	
-	.new_design {
-		background-image: none;
-		background-color: #ececec;
-	}
+
 
 	.design {
 		padding: 0 10px;
