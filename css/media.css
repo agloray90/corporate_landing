@@ -155,6 +155,10 @@
 		margin: 10px 0;
 	}
 
+	.designers_inputs p {
+		padding-top: 30px;
+		line-height: normal;
+	}	
 
 	.but_form_footer {
 	    right: 30%;
