@@ -272,8 +272,7 @@ body {
 }
 
 .desc_container p {
-    max-width: 650px;
-    margin: 0 auto;
+    max-width: 650px;    
     line-height: 1.6;
     font-family: "Exo-Medium";
     font-size: 16px;
