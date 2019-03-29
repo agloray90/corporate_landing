@@ -453,7 +453,9 @@ body {
 	font-size: 16px;	
 	color: #f6f5f3;	
 } 
-
+.form_footer {
+	position: relative;
+}
 
 .form_footer input[type="text"]::placeholder { 
 	font-family: "Exo-Regular";
@@ -467,8 +469,8 @@ body {
 	height: 40px;
 	width:  40px;
 	position: absolute;
-    top: 36%;
-    left: 66%;
+    top: 0%;   
+    right: 25%;
     border-radius: 3px;
 
 }

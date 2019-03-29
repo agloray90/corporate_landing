@@ -20,9 +20,8 @@
 	.section_desc {
 		padding-top: 50px;
 	}
-
 	.but_form_footer {
-    	left: 72%;
+    	right: 5%;
 
 }
 
@@ -97,7 +96,10 @@
 	}
 	.logo_container p {
     	width: 100%;
+	}
 
+	.but_form_footer {
+	    right: 35%;
 }
 
 
@@ -151,7 +153,9 @@
 	.container_inputs input {
 		margin: 10px 0;
 	}
-	
+	.but_form_footer {  
+    	right: 20%;
+	}
 }
 	
 
