@@ -191,8 +191,14 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 320px) {
+	.sub_title_designes h2,
+	.desc_container h2,
+	.some_title_container h2,
+	.design h2 {
+    	font-size: 30px;
+	}
 
-		.but_form_footer {
+	.but_form_footer {
 	    right: 15%;
 	} 
 }
