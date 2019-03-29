@@ -418,17 +418,13 @@ body {
 	border: 1px solid #b8b8bf;	  
 	padding: 10px;	
 	border-radius: 3px;
-	position: relative;
-	
 }
 
 .form_footer input[type="text"] {
 	font-family: "Exo-Regular";
 	font-size: 16px;
 	color: #000;
-
 }
-
 
 .container_inputs input[type="text"]::-webkit-input-placeholder { 
 	font-family: "Exo-Regular";
