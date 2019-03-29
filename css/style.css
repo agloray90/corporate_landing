@@ -346,7 +346,7 @@ body {
   	padding: 11px 10px;
   	border-radius: 3px;
   	background-color: #ff6d6d;
-  	box-shadow: 3px 3px 3px 3px #272d53;
+  	box-shadow: 3px 3px 3px 1px #272d53;
 }
 
 .but_try:hover {
